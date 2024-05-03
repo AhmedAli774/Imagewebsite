@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+}
+
+h1,h2,h6, p{
+    padding: 0%;
+}
+
+h1{
+    color: var(--Dark-blut, #3D5D79);
+font-size: 66px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+h2{
+    color: var(--Dark-blut, #3D5D79);
+text-align: center;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 128% */
+}
+
+h3{
+    color: var(--Dark-blut, #3D5D79);
+text-align: center;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 31px; /* 103.333% */
+}
+@media screen and (max-width : 576px ) {
+    h3{
+        
+    font-size: 30px;
+    
+    }  
+}
+h5{
+    color: var(--Dark-blut, #364d61);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+a {
+color: #2CB5B4 !important;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+text-decoration: none;
+
+}
+p{
+color: var(--Main, #2CB5B4);
+/* text-align: center; */
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 134.615% */
+}
+
+.mt-100px {
+    margin-top: 100px;
+}
+
+@media screen and (max-width : 576px) {
+    
+    .mt-100px {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+.getapp_btn {
+    background-color: #2CB5B4;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.getapp_btn:hover {
+    background-color: hsl(180, 72%, 59%);
+    color: #FFF;
+}
+.navbar{
+ background: #FFF;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.nab-ul{
+    display: flex;
+    text-decoration: none;
+    /* color: #FFF; */
+    justify-content:space-between;
+}
+.card1{
+    display: flex;
+    justify-content:center;
+}
+
+
+.banner_section .content_div {
+    margin-top: 6rem;
+    /* background-color: #2CB5B4; */
+}
+.banner2_section{background-color:#2CB5B4;
+}
+
+.featured{
+    background-color: #CFF3F3;
+}
+.Make{
+    color: var(--Dark-blut, #3D5D79);
+    /* text-align: center; */
+    font-size: 30px;
+    text-align: start;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px; /* 103.333% */
+    
+}
+
+
+/* ---------- ----------------------
+************ Home Banner ***********
+------------------------------------- */
+
+.home_banner_section {
+    background-image: url('./image/baner.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width : 576px) {
+    .home_banner_section {
+        background-image: url('./image/baner_pic.png');
+        height: 50vh;
+    }
+}
+
+.index_banner_section{
+    background-image: url('/image/main-image.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+
+.footer{
+    background-color: #3D5D79;
+}
+.footer_color{
+    color: #FFF;
+}
+.footer_htag{
+    color: var(--Dark-blut, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.f_a{
+    color: #CCC !important;
+}
+
+/* home_page */
+
+.nav_color{
+    background-color: #EAEAEA;
+
+}
+.nav_link{
+    color: #3C4C6A !important ;
+
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner{
+    background-image:  linear-gradient();
+}
+.UX_DESIGNER{
+    color: var(--Dark-blut, #3D5D79);
+    /* text-align: center; */
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 128% */
+    text-align: start;
+  
+}
+.hr{
+    color: orangered;
+    height: 17px;
+    /* width: 1457px; */
+    background-color:orangered;
+}
+.oject-oran{
+    margin-top: 150px !important ;
+}
+.select_project{
+    background-image: url(./image/backgroung.png);
+}
+.about{
+    background-color: #FBF7F6;
+}
+.More_Work{
+    background-image: url(./image/full.background.png);
+
+}
+ .M_W_paragrap {
+    /* background-image: url(./image/full.background.png); */
+    color: #6B768A;
+    text-align: center;
+}
+.M_W_link{
+    margin-top: 25px;
+}
+.M_W_BTN{
+    background-color:rgb(227, 96, 48);
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    align-self: center;
+    
+}
+.M_W_ATAG{
+    color: #F66D20 !important;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+text-decoration:underline;
+
+
+}
+.M_W_BTN:hover {
+    background-color: hsl(14, 100%, 50%);
+    color: #FFF;
+}
+.LET_W_BTN{
+    background-color:rgb(226, 72, 16);
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    align-self: center;
+    margin-left: 44%;
+    
+}
+.LET_W_BTN:hover {
+    background-color: hsl(14, 100%, 50%);
+    color: #FFF;
+}
+/* .last_nav{
+    background-color:  #EAEAEA;
+} */
+.nav_paragrap{
+    color: var(--Main, #424B5A);
+/* text-align: center; */
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px; /* 134.615% */
+
+}
+.last_footer{
+    background-color: #EAEAEA;
+}
+
+ /* about  */
+.about_heading{
+    /* color: var(--Dark-blut,  #054473);
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700; */
+    color: var(--1234, #054473);
+font-family: Ubuntu;
+font-size: 43px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: start !important ;
+       
+}
+.about_paragraph{
+    color: var(--Main-2, #0678CE);
+font-family: Ubuntu;
+font-size: 25px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.about_progress{
+     color: #054473;
+}
+ .banner1_section{
+    background-image: url(./image/car.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+ }
+.pragraph{
+    margin-top: 40px;
+}
+
+.proess_location{
+    background-color: #D0E5F5;
+}
+
+
+.footer-link{
+    color: #D0E5F5 !important;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+text-decoration: none;
+    
+}
+.about_footer{
+    background-color: #3D5D79;
+}
+.footer_heading{
+color: #FFF;
+}
+.about_last_footer{
+    background-color: #3D5D79;
+    color: #D0E5F5;
+font-family: Ubuntu;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+
+}
+
+
